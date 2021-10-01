@@ -1,0 +1,43 @@
+.container{
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+.search{
+    float: right;
+    margin: 0 10px 15px 0;
+}
+.search button{
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    padding: 5px;
+}
+.search input{
+    padding: 5px;
+}
+.search button:hover{
+    background-color: #09633a;
+}
+select{
+    width: 445px;
+    padding: 10px;
+}
+select:focus{
+    min-width: 445px;
+    width: auto;
+}
+.size{
+    border: 2px solid rgb(3, 86, 100);
+    border-radius: 10px;
+}
+.btn{
+    padding: 5px 10px;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: steelblue;
+    color: white;
+}

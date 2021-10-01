@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.home img{
+   width: 90%;
+   height:500px;
+   opacity: 0.7;
+   object-position: center;
+   object-fit: cover;
+}
+.home{
+    position: relative;
+    text-align: center;
+   
+}
+.text{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    color: rgb(92, 94, 3);
+}
+.search{
+    float: right;
+    margin: 0 10px 15px 0;
+}
+.search button{
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    padding: 5px;
+}
+.search input{
+    padding: 5px;
+}
+.search button:hover{
+    background-color: #09633a;
+}
+
+.red{
+    background-color: rgb(202, 55, 55);
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    font-family: questrial,sans-serif;
+    font-style: italic;
+}
+.red .text{
+    color: black;
+  text-align: center;
+  margin: auto;
+}
+.red button{
+    border: 2px solid black;
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    padding: 15px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-family: cookie,cursive;
+
+}
+.red button:hover{
+    background-color: black;
+    color: white;
+}
+.bg-img img{
+    width: 90%;
+    height:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.bg-img{
+    position: relative;
+}
+.bg-img .center {
+    position: absolute;
+    top: 25%;
+   left: 18%;
+    color: rgb(5, 95, 110);
+    text-align: center;
+    font-family: cookie,cursive;
+   
+}
+.bg-img .center span{
+    color: rgb(179, 70, 6);
+    font-size: 80px;
+   
+    
+}
+.bg-img .join button{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    border: 2px solid tomato ;
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+}
+.bg-img .join button:hover{
+    background-color: turquoise;
+    color: black;
+    border: 2px solid turquoise;
+}
